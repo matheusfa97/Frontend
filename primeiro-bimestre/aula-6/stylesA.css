@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+body{
+    font-family: 'Roboto Mono', monospace;
+    background-color: #131313;
+    
+
+}
+h1 {
+    color:white;
+}
+
+div.media-picture {
+    background-image: url('http://midia.gruposinos.com.br/_midias/jpg/2015/06/02/avengers_age_of_ultron-816555.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+
+span.review-score {
+    color: white;
+    background-color: #e6bd09;
+    padding: 12px;
+}
+
+p {
+    color:#bdbdbd;
+}
+
+h2 {
+    color: steelblue;
+
+}
+
+a { 
+    color: yellow;
+}
+
