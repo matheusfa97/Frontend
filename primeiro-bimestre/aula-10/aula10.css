@@ -1,0 +1,44 @@
+*{
+    padding: 30;
+    width: 30;
+    margin: 24;
+
+}
+
+body {
+    background-color: black;
+    background-image: url("https://t3.ftcdn.net/jpg/01/17/33/22/360_F_117332203_ekwDZkViF6M3itApEFRIH4844XjJ7zEb.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
+}
+
+form {
+
+    background-color: white;
+    width: 500px;
+    margin: 0 auto;
+    padding: 24px;
+}
+
+label, input, textarea, button {
+    display: block;
+
+}
+
+button {
+    background-color: rgb(252, 203, 195);
+    border: 2px solid red;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    padding: 0.2em 0.6em;
+    width: 100px;
+
+    
+}
+
+img {
+    width: 200px;
+}
+
