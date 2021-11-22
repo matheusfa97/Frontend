@@ -1,0 +1,39 @@
+
+button:hover{
+    background-color: rgb(156, 29, 29);
+}
+
+
+p{
+    color:black;
+}
+
+p::first-line{
+    color:rgb(250, 7, 7)
+}
+
+p::first-letter{
+    color: blue;
+}
+
+input [type="text"]
+:focus {
+    border: 1px solid black;
+}
+    
+
+
+input[type="checkbox"]
+:checked {
+    margin-left: 100px;
+}
+
+li:nth-child(odd){
+    background-color: rosybrown;
+}
+
+
+
+
+
+
