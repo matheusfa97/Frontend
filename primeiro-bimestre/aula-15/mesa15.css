@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Roboto:wght@500&family=Shippori+Antique&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-template-areas: 
+    'main-header main-header'
+    'main-aside main-content'
+    'main-footer main-footer'
+    ;
+
+}
+
+header {
+
+    background-color: crimson;
+    grid-area: main-header;
+    height: 80px;
+    
+}
+
+.logo {
+    
+    height: 70px;
+    display: block;
+    margin: 0 auto;
+
+    
+    }
+
+
+aside {
+    
+    
+    background-color: black;
+    grid-area: main-aside;
+    
+    
+    
+}
+
+main {
+    
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+    background-repeat: no-repeat;
+    display: block;
+    width: 60%;
+    
+    margin: 50px auto;
+    
+    height: 2000px;
+
+
+}
+
+footer {
+
+    background-color: crimson;
+    grid-area: main-footer;
+    height: 100px;
+}
+
+
+li {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+ul {
+    padding: 100px;
+}
+
+
+h1 {
+    margin: 30px auto
+}
